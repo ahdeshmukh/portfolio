@@ -1,6 +1,6 @@
 .navbar {
     margin-bottom: 0;
-    background-color: #f4511e;
+    background-color: #752a13;
     z-index: 9999;
     border: 0;
     font-size: 12px !important;
@@ -78,4 +78,9 @@ div.my-animation-slide-down {
 @-webkit-keyframes my-animation-slide-down {
     0% {transform: translateY(-1500px); font-size: 100%; opacity: 0}
     100% {transform: translateY(0); font-size: 150%; opacity: 1; font-style:italic}
+}
+
+.my-sections {
+  display: block;
+  height: 500px;
 }
