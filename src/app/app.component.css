@@ -86,3 +86,15 @@ div.my-animation-slide-down {
 .skill-name {
   font-weight: bold;
 }
+
+.my-section-title {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+}
+.my-section-title span {
+    padding: 0 10px;
+    background:#fff; 
+}
