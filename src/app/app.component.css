@@ -79,8 +79,8 @@ div.my-animation-slide-down {
 }
 
 .my-sections {
-  padding-top:30px;
-  font-size: 20px;
+  padding: 30px 50px 0 50px;
+  font-size: 14px;
 }
 
 .skill-name {
