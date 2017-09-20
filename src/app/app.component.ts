@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  my_photo = '/assets/images/amit_photo.jpg';
   flask_image = '/assets/images/projects/flask.png';
   angular2_cli = '/assets/images/projects/angular2cli.png';
 
