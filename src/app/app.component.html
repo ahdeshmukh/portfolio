@@ -29,7 +29,7 @@
       </div>
     </div>
     <div class="col-md-4">
-      <img style="max-height:200px; max-width:200px;" class="img-responsive img-circle padding-top-bottom-20 center-block" src="{{my_photo}}" />
+      <img class="img-responsive img-circle portfolio-image padding-top-20 padding-bottom-20 center-block" src="{{my_photo}}" />
       <div class="center-text font-20">FULL STACK SOFTWARE ENGINEER</div>
       <div class="center-text font-12">deshmukh.ah@gmail.com</div>
       <div class="center-text font-12">703-901-5790</div>
@@ -46,10 +46,10 @@
   </div>
 </div>
 
-<div id="about" class="container">
+<div id="about" class="container my-sections">
+  <h2 class="my-section-title"><span>About</span></h2>
   <div class="row">
-    <div class="col-xs-12 my-sections">
-      <h2 class="my-section-title"><span>About</span></h2>
+    <div class="col-xs-12">
       <p>I am Amit Deshmukh. Thank you for visiting my portfolio. 
         I am a Full Stack Software Engineer with over 8 years experience in the field of Software Engineering. 
         I graduated from George Mason University with Masters in Information Systems in 2009 with a GPA of 3.39.
@@ -63,12 +63,6 @@
         <li>Experience working in Agile environment.</li>
         <li>Invest personal time in trying to get hands-on experience for new technologies.</li>
       </ul>
-      <!--<div class="row">
-        <div class="col-md-2"><span class="skill-name">GITHUB</span></div>
-        <div class="col-md-10"><a class="padding-left-15" href="https://github.com/ahdeshmukh" target="_blank">https://github.com/ahdeshmukh</a></div>
-        <div class="col-md-2"><span class="skill-name">LINKEDIN</span></div>
-        <div class="col-md-10"><a class="padding-left-15" href="https://www.linkedin.com/in/ahdeshmukh" target="_blank">https://www.linkedin.com/in/ahdeshmukh/</a></div>
-      </div>-->
       <div><span class="skill-name">GITHUB</span></div>
       <div><a href="https://github.com/ahdeshmukh" target="_blank">https://github.com/ahdeshmukh</a></div>
       <div><span class="skill-name">LINKEDIN</span></div>
@@ -126,10 +120,10 @@
   </div>
 </div>
 
-<div id="experience" class="container">
+<div id="experience" class="container my-sections">
+  <h2 class="my-section-title"><span>Experience</span></h2>
   <div class="row">
-    <div class="col-xs-12 my-sections">
-      <h2 class="my-section-title"><span>Experience</span></h2>
+    <div class="col-xs-12">
       <div>
         <h4>Software Engineer, Xpand Corporation, Jan 2013 - Present</h4>
         <div>
@@ -152,21 +146,24 @@
         </div>
         <div>
           <p><span class="font-bold">Virtual Career Network</span> (<a href="https://www.vcn.org" target="_blank">https://www.vcn.org</a>) developed using Drupal 7, PHP, HTML, CSS, jQuery, MySQL</p>
-          <div>What is VCN?</div>
-          <ul>
-            <li>Drupal developer on the team that developed and maintains Virtual Career Network.</li>
-            <li>Participated in migration of code from Drupal 6 to Drupal 7</li>
-            <li>Implemented single sign on for Drupal multi sites.</li>
-            <li>Developed new features to display data using jQuery dataTable plugin and applied it throughout the website to enhance uniformity, while improving the performance of the pages which have a high volume of data</li>
-            <li>Introduced the Drush tool to the team.</li>
-          </ul>
+          <div>The VCN is an "open source" workforce services and online learning delivery platform built and operated by the American Association of Community Colleges (AACC) under a grant from the Employment and Training Administration (ETA) of the United States Department of Labor (DOL). The website was developed to help US workers transition into Healthcare, Green Economy and Transit careers and help people over 50 years find a way back in the work force.</div>
+          <div class="margin-top-20 margin-bottom-20">
+            <ul>
+              <li>Drupal developer on the team that developed and maintains Virtual Career Network.</li>
+              <li>Participated in migration of code from Drupal 6 to Drupal 7</li>
+              <li>Implemented single sign on for Drupal multi sites.</li>
+              <li>Developed new features to display data using jQuery dataTable plugin and applied it throughout the website to enhance uniformity, while improving the performance of the pages which have a high volume of data</li>
+              <li>Introduced the Drush tool to the team.</li>
+              <li>Support and answer the queries of the registered users of the site.</li>
+            </ul>
+          </div>
         </div>
       </div>
       <div>
         <h4>Software Engineer, REI Systems Inc, Nov 2009 - Jan 2013</h4>
         <div>
           <p><span class="font-bold">Federal IT Dashboard</span> (<a href="https://www.itdashboard.gov/" target="_blank">https://www.itdashboard.gov/</a>)  developed using Drupal 6, PHP, HTML, CSS, jQuery, MySQL</p>
-          <div>What is IT Dashboard?</div>
+          <div class="margin-top-20 margin-bottom-20">IT Dashboard provides Federal agencies and the public with the ability to view details of Federal information technology (IT) investments online and to track their progress over time.</div>
           <ul>
             <li>Software Engineer on the team that developed and maintained IT Dashboard</li>
             <li>Task 2</li>
@@ -178,10 +175,37 @@
   </div>
 </div>
 
-<div id="projects" class="container">
-  <div class="row my-sections">
-    <h2 class="my-section-title"><span>Projects</span></h2>
-    <div class="col-md-6 padding-top-bottom-20">
+<div id="projects" class="container my-sections">
+  <h2 class="my-section-title"><span>Projects</span></h2>
+  <div class="row">
+    <div class="col-md-6">
+      <a href="https://jobcentraldirect.com" target="_blank">
+          <img class="img-responsive" src="{{directsource_image}}" />
+      </a>
+      <div class="padding-top-10 text-muted">
+        <div><a href="https://jobcentraldirect.com" target="_blank">https://jobcentraldirect.com</a></div>
+        <div>Technology: AngularJS, PHP, Slim Framework, CSS, HTML, Bootstrap</div>
+        <div>Database: MySQL</div>
+        <div>Search: Solr</div>
+        <div>Version Control: GIT, Github</div>
+        <div>Hosting: CentOS</div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <a href="https://vcn.org" target="_blank">
+        <img class="img-responsive" src="{{vcn_image}}" />
+      </a>
+      <div class="padding-top-10 text-muted">
+        <div><a href="https://vcn.org" target="_blank">https://vcn.org</a></div>
+        <div>Technology: Drupal, PHP, HTML, CSS, jQuery, Google charts</div>
+        <div>Database: MySQL</div>
+        <div>Version Control: GIT, Github</div>
+        <div>Hosting: CentOS</div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
       <a href="http://flask-deshmukh-ah.herokuapp.com" target="_blank">
           <img class="img-responsive" src="{{flask_image}}" />
       </a>
@@ -193,7 +217,7 @@
         <div>Hosting: Heroku</div>
       </div>
     </div>
-    <div class="col-md-6 padding-top-bottom-20">
+    <div class="col-md-6">
       <a href="https://angular2cli-f651c.firebaseapp.com/home" target="_blank">
         <img class="img-responsive" src="{{angular2_cli}}" />
       </a>
