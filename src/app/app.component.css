@@ -1,1 +1,9 @@
-.jumbotron {min-height:700px; background-image: url("baddus.jpg");background-size: cover;background-position: top center;}
+.home-image {
+    height: 300px;
+}
+
+@media screen and (min-width: 520px) {
+    .home-image {
+        height: auto;
+    }
+}

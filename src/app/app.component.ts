@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+declare const $;
 
 @Component({
   selector: 'app-root',
@@ -16,4 +17,20 @@ export class AppComponent {
 
   /*flask_image = '/assets/images/projects/1.png';
   angular2_cli = '/assets/images/projects/2.png';*/
+
+  ngOnInit(): void {
+    $(document).ready(function(){
+	$(window).on("scroll",function(){
+  	var wn = $(window).scrollTop();
+    if(wn > 120){
+    	$(".navbar-default").css("background","rgba(255,0,0,1)");
+    }
+    else{
+    	$(".navbar-default").css("background","rgba(1,1,1,1)");
+    }
+  });
+});
+  }
+
+
 }
