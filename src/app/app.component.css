@@ -17,3 +17,13 @@
 .navbar-toggle-colored {
     background-color: #f4511e;
 }
+
+.black-background {
+    background-color:black;
+}
+
+.navbar-brand {
+    font-family: 'Tangerine', serif;
+    font-size: 38px;
+    color: #fff;
+}

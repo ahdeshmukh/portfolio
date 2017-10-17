@@ -20,17 +20,15 @@ export class AppComponent {
 
   ngOnInit(): void {
     $(document).ready(function(){
-  $(window).scroll(function(){
-  	var scroll = $(window).scrollTop();
-	  if (scroll > 300) {
-	    $(".navbar").css("background" , "blue");
-	  }
-
-	  else{
-		  $(".navbar").css("background" , "transparent");  	
-	  }
-  })
-})
+      $(window).scroll(function(){
+        var scroll = $(window).scrollTop();
+        if (scroll > 300) {
+          $(".navbar").css("background" , "black");
+        } else{
+          $(".navbar").css("background" , "transparent");  	
+        }
+      })
+    });
   }
 
 
