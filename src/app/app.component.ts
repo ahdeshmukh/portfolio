@@ -23,9 +23,11 @@ export class AppComponent {
       $(window).scroll(function(){
         var scroll = $(window).scrollTop();
         if (scroll > 300) {
-          $(".navbar").css("background" , "black");
+          $(".navbar").css({"background":"black", "padding-top":"10px", "padding-bottom":"10px"});
+          $(".navbar-brand").css({"font-size":"54px"});
         } else{
-          $(".navbar").css("background" , "transparent");  	
+          $(".navbar").css({"background":"transparent", "padding-top":"20px", "padding-bottom":"20px"});
+          $(".navbar-brand").css({"font-size":"60px"});
         }
       })
     });
