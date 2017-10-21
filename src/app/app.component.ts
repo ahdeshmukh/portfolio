@@ -25,14 +25,15 @@ export class AppComponent {
         if (scroll > 200) {
           $(".navbar").css({"background":"black", "padding-top":"10px", "padding-bottom":"10px"});
           $(".navbar-brand").css({"font-size":"54px", "padding-top":"20px"});
-          $(".navbar-li-font").css({"color":"#fff"});
+          $(".navbar-custom .navbar-nav > li > a").css({"color":"#fff"});
         } else{
           $(".navbar").css({"background":"transparent"});
           if (window.matchMedia('(min-width: 520px)').matches) {
             $(".navbar").css({"padding-top":"20px", "padding-bottom":"20px"});
             $(".navbar-brand").css({"font-size":"80px", "padding-top":"30px"});
+            $(".navbar-custom .navbar-nav > li > a").css({"color":"#fff"});
           }
-          $(".navbar-li-font").css({"color":"#271f1f"});
+          $(".navbar-custom .navbar-nav > li > a").css({"color":"#271f1f"});
         }
       });
     });

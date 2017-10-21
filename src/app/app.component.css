@@ -36,11 +36,17 @@
     }
 }
 
-.navbar-li-font {
-    font-size: 20px;
-    color: #271f1f;
-}
-
 .navbar-padding-10 {
     padding: 10px 0;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color:#ffffff;
+    font-size: 16px;
+}
+@media screen and (min-width: 520px) {
+    .navbar-custom .navbar-nav > li > a {
+        color: #271f1f;
+        font-size: 20px;
+    }
 }
