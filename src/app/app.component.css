@@ -31,7 +31,7 @@
 }
 @media screen and (min-width: 520px) {
     .navbar-brand {
-        font-size: 80px;
+        font-size: 90px;
         padding: 30px 0 20px 20px;
     }
 }
@@ -49,4 +49,10 @@
         color: #271f1f;
         font-size: 20px;
     }
+}
+
+ul.nav a:hover { 
+    color: #fff !important;
+    background-color: #8A8383;
+    border-radius: 10px;
 }

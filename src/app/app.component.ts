@@ -28,12 +28,12 @@ export class AppComponent {
           $(".navbar-custom .navbar-nav > li > a").css({"color":"#fff"});
         } else{
           $(".navbar").css({"background":"transparent"});
+          $(".navbar-custom .navbar-nav > li > a").css({"color":"#fff"});
           if (window.matchMedia('(min-width: 520px)').matches) {
             $(".navbar").css({"padding-top":"20px", "padding-bottom":"20px"});
-            $(".navbar-brand").css({"font-size":"80px", "padding-top":"30px"});
-            $(".navbar-custom .navbar-nav > li > a").css({"color":"#fff"});
+            $(".navbar-brand").css({"font-size":"90px", "padding-top":"30px"});
+            $(".navbar-custom .navbar-nav > li > a").css({"color":"#271f1f"});
           }
-          $(".navbar-custom .navbar-nav > li > a").css({"color":"#271f1f"});
         }
       });
     });
