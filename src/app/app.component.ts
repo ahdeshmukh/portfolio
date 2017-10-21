@@ -20,6 +20,10 @@ export class AppComponent {
 
   ngOnInit(): void {
     $(document).ready(function(){
+      if (window.matchMedia('(min-width: 520px)').matches) {
+         $('.navbar').removeClass('navbar-static-top').addClass("navbar-fixed-top");
+      }
+      
       $(window).scroll(function(){
         var scroll = $(window).scrollTop();
         if (scroll > 200) {
@@ -27,9 +31,9 @@ export class AppComponent {
           $(".navbar-brand").css({"font-size":"54px", "padding-top":"20px"});
           $(".navbar-custom .navbar-nav > li > a").css({"color":"#fff"});
         } else{
-          $(".navbar").css({"background":"transparent"});
           $(".navbar-custom .navbar-nav > li > a").css({"color":"#fff"});
           if (window.matchMedia('(min-width: 520px)').matches) {
+            $(".navbar").css({"background":"transparent"});
             $(".navbar").css({"padding-top":"20px", "padding-bottom":"20px"});
             $(".navbar-brand").css({"font-size":"90px", "padding-top":"30px"});
             $(".navbar-custom .navbar-nav > li > a").css({"color":"#271f1f"});

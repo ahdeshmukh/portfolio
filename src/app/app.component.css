@@ -1,5 +1,5 @@
 .home-image {
-    height: 300px;
+    height: 250px;
 }
 
 @media screen and (min-width: 520px) {
@@ -12,6 +12,8 @@
     background-color: transparent;
     border-width: 0px;
     padding: 20px 0;
+    margin-bottom: 0px;
+    border: none !important;
 }
 
 .navbar-toggle-colored {
@@ -59,3 +61,12 @@
     border-radius: 5px;
 
 }
+
+.navbar-static-top {
+    max-height: 80px;
+    background-color: black;
+}
+
+
+/*.navbar-nav > li > a {padding-top:5px !important; padding-bottom:5px !important;}
+.navbar {min-height:32px !important}*/
