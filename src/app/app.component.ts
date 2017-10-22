@@ -20,7 +20,7 @@ export class AppComponent {
 
   ngOnInit(): void {
     $(document).ready(function(){
-      if (window.matchMedia('(min-width: 520px)').matches) {
+      if (window.matchMedia('(min-width: 1224px)').matches) {
          $('.navbar').removeClass('navbar-static-top').addClass("navbar-fixed-top");
       }
       
@@ -32,7 +32,7 @@ export class AppComponent {
           $(".navbar-custom .navbar-nav > li > a").css({"color":"#fff"});
         } else{
           $(".navbar-custom .navbar-nav > li > a").css({"color":"#fff"});
-          if (window.matchMedia('(min-width: 520px)').matches) {
+          if (window.matchMedia('(min-width: 1224px)').matches) {
             $(".navbar").css({"background":"transparent"});
             $(".navbar").css({"padding-top":"20px", "padding-bottom":"20px"});
             $(".navbar-brand").css({"font-size":"90px", "padding-top":"30px"});
