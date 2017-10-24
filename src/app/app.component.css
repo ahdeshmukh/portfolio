@@ -86,3 +86,8 @@ ul.nav a:hover {
 .affix {
     min-width: 100%;
 }
+
+.portfolio-image {
+    max-height:200px;
+    max-width:200px;
+}
