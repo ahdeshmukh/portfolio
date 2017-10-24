@@ -63,8 +63,11 @@ ul.nav a:hover {
 .navbar-nav li.active a { 
     color: #fff !important;
     background-color: #8A8383;
-    border-radius: 5px;
-
+}
+@media screen and (min-width: 1224px) {
+    .navbar-nav li.active a { 
+        border-radius: 5px;
+    }
 }
 
 .navbar-static-top {
@@ -77,5 +80,9 @@ ul.nav a:hover {
 .navbar {min-height:32px !important}*/
 
 .my-sections {
-  padding: 40px;
+  padding: 65px 40px 15px 40px;
+}
+
+.affix {
+    min-width: 100%;
 }
