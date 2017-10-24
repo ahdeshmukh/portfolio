@@ -88,6 +88,8 @@ ul.nav a:hover {
 }
 
 .portfolio-image {
-    max-height:200px;
-    max-width:200px;
+    max-height: 150px;
+    max-width: 150px;
+    display: block;
+    margin: auto;
 }

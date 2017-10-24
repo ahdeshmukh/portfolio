@@ -26,7 +26,7 @@ export class AppComponent {
       
       $(window).scroll(function(){
         var scroll = $(window).scrollTop();
-        if (scroll > 200) {
+        if (scroll > 150) {
           $(".navbar").css({"background":"black", "padding-top":"10px", "padding-bottom":"10px"});
           $(".navbar-brand").css({"font-size":"54px", "padding-top":"20px"});
           $(".navbar-custom .navbar-nav > li > a").css({"color":"#fff"});
