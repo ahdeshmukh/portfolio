@@ -100,8 +100,14 @@ ul.nav a:hover {
 }
 
 .about-paragraph, .projects-paragraph {
+    font-family: 'Poppins', sans-serif;
     margin: 20px 0;
     font-size: 16px;
+}
+@media screen and (min-width: 1224px) {
+    .about-paragraph, .projects-paragraph { 
+        font-size: 18px;
+    }
 }
 
 /*.about-paragraph {
