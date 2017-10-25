@@ -99,8 +99,9 @@ ul.nav a:hover {
     margin: auto;
 }
 
-.about-paragraph {
+.about-paragraph, .projects-paragraph {
     margin: 20px 0;
+    font-size: 16px;
 }
 
 /*.about-paragraph {
@@ -116,4 +117,18 @@ ul.nav a:hover {
 .my-section-title {
     text-align: center;
     margin-bottom: 15px;
+}
+
+.about-contact {
+    text-align: center;
+}
+.about-contact-fa {
+    padding:0 20px;
+    font-size: 36px;
+    color: #000;
+}
+@media screen and (min-width: 1224px) {
+    .about-contact-fa { 
+        font-size: 44px;
+    }
 }
