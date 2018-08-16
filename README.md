@@ -28,3 +28,14 @@ Before running the tests make sure you are serving the app via `ng serve`.
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Deploy to Firebase
+
+https://www.youtube.com/watch?v=82PRCg4QfpE
+
+ng build --prod<br/>
+npm install -g firebase-tools<br/>
+Go to root of the project and run firebase login<br/>
+Login using your Google credentials<br/>
+Run firebase init. Since we already have .firebaserc we can skip this step<br/>
+firebase deploy
